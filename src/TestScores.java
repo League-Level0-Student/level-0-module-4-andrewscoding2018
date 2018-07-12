@@ -7,7 +7,7 @@ String score = JOptionPane.showInputDialog("What is your test score?");
 Double s = Double.parseDouble(score);
 	if(name.equals("Aidan"))
 	{
-		JOptionPane.showMessageDialog(null, "You suck.");
+		JOptionPane.showMessageDialog(null, "That sucks.");
 	}
 	else if(s < 90.0)
 	{
@@ -15,7 +15,7 @@ Double s = Double.parseDouble(score);
 	}
 	else
 	{
-		JOptionPane.showMessageDialog(null, "You suck.");
+		JOptionPane.showMessageDialog(null, "That sucks.");
 	}
 	
 }
